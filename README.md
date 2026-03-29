@@ -211,10 +211,8 @@ Most accidents:
 ## Model Results
 * We started by building baseline models including Decision Tree, Random Forest Classifier, and Neural Network
 1. Initial models suffered from class imbalance by overfitting.
-![alt text](<Figures/First round of model accuracy comparison with 50% of the data.png>)
 
 2. Second round with increased sample size - 80% also suffered from overfitting with low accuracy scores.
-![alt text](<Figures/Second round of model comparison with 80% of the data..png>)
 
 3. We improved the model by grouping the target variable into 5 broad causes (Environmental, Vehicle Defect, Impairment/Distraction, Driver Error, and Unknown)
 
